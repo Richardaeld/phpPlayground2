@@ -60,7 +60,7 @@
     // while
     // do-while -- will always run once even if condition is false
     // for -- ($i = 0; $i < 10; $i++){}
-    // foreach -- ($array as $value){echo $value}
+    // foreach -- ($array as $value){echo $value;} -- ($array as $key => $value){ echo $key . ": " . $value;}
     // syntax ->
 
 
