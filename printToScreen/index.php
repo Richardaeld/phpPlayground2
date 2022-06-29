@@ -63,6 +63,17 @@
     // foreach -- ($array as $value){echo $value;} -- ($array as $key => $value){ echo $key . ": " . $value;}
     // syntax ->
 
+    // imports
+    // include
+    // include_once
+    // require
+    // require_once
+
+    // user defined function
+    // function calcAdd ($num1 + $num2) {
+    //     $value = $num1 + $num2
+    //     return $value
+    // }
 
     ?>
 </p>
