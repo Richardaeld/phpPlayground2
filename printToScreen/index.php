@@ -75,6 +75,10 @@
     //     return $value
     // }
 
+    // Forms
+    // Get -- will display in address bar
+    // Post -- will NOT display  in address bar
+
     ?>
 </p>
 
