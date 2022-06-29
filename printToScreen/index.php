@@ -15,19 +15,23 @@
     $json_api_dice = file_get_contents($api_dice);
     $dice_data = json_decode($json_api_dice);
     $var = $dice_data;
+
     // $var = "something";
     // Outputs one or more strings
     echo "I am an echo", "\r\n", "with an additonal string";
     echo "<br>";
     echo "<br>";
+
     // addition
     echo "Im adding 7 to 7 -- ", 7+7;
     echo "<br>";
     echo "<br>";
+
     // Outputs a string
     print "I am a string";
     print "<br>";
     print "<br>";
+
     // Outputs human readable information about a variable
     print_r("Whole Object:");
     print_r("<br>");
@@ -50,8 +54,13 @@
     print_r("<br>");
     print_r("<br>");
 
+
     // if else
-    // foreach
+    // switch -- similar to if else but is more suited for larger blocks to run after condition is met
+    // while
+    // do-while -- will always run once even if condition is false
+    // for -- ($i = 0; $i < 10; $i++){}
+    // foreach -- ($array as $value){echo $value}
     // syntax ->
 
 
